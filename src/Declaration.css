@@ -1,0 +1,29 @@
+.Title
+{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: -30px;
+    margin-left: -700px;
+} 
+.Application
+{
+    margin-left: -5px;
+}
+.Text
+{
+    margin-left: 10px;
+}
+.Buttonssty
+{
+    padding: 8px 18px 8px 18px;
+    color: white;
+    background-color: #2EA7E4;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+.Page{
+    font-size: medium;
+    width: 800px;                      ;
+}

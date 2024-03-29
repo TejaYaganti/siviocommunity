@@ -1,0 +1,88 @@
+.PageTitle {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 0 0;
+    margin-left: -750px;
+}
+.FamilyTable {
+    padding: 16px 0 0;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.ServiceBox {
+  border: 1px solid black;
+  width: 950px;
+}
+.buttonsDiv {
+    padding: 50px 0 0;
+}
+.continueButton {
+    text-align: center;
+    padding: 8px 0 0;
+}
+
+.newFamily .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .newFamily .modal {
+    background: white;
+    border-radius: 5px;
+    height: auto;
+  }
+  
+  .newFamily .modal-header {
+    /* display: flex; */
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 2px solid #DDDBDA;
+  }
+  .newFamily .modal-body {
+    border-bottom: 2px solid #DDDBDA;
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    height: auto;
+    width: auto;
+  }
+  .newFamily .account-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+.newFamily .custom-select {
+    position: relative;
+}
+form div {
+    margin-top: 1rem;
+  }
+  
+  /* label,
+  input,
+  textarea
+  button,
+  select{
+    font-size: 1.3rem;
+    line-height: 1.2
+  } */
+  
+  label {
+    display: block;
+    width: 300px;
+  }
+  
+  .newFamily input,
+  textarea {
+    padding: 3px;
+    font-size: 15px;
+  }
+  .newFamily select {
+    padding: 7px;
+    font-size: 15px;
+  }

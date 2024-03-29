@@ -1,0 +1,134 @@
+.ApplicationTable {
+    padding : 15px 0;
+}
+.buttonStyle {
+    padding: 8px 18px 8px 18px;
+    color: white;
+    background-color: #2EA7E4;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 7px;
+}
+table tr:hover {
+    background-color: #e6f3f7;
+}
+table th {
+    padding-top: 8px;
+    text-align: center;
+    background-color: #DCDCDC;
+    color: rgb(0, 0, 0);
+}
+#editApplication {
+    display: none;
+}
+.vtabcontent {
+    display: none;
+}
+.vtab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 16%;
+    height: 540px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.vtab button {
+    display: block;
+    border: 1px solid white;
+    color:black;
+    width: 100%;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: all .3s linear;
+    font-size: 15px;
+    line-height: 45px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 5px;
+    letter-spacing: 1px;
+}
+.vtab button.active {
+    background-color: #2EA7E4;
+    border-left: 5px solid #b93632;
+}
+.vtab button:hover {
+    background-color: #2EA7E4;
+    border-left: 5px solid black;
+}
+.vtabcontent {
+    float: left;
+    padding-left:5%;
+    width: 70%;
+    border-left: none;
+    margin-top: 1%;
+}
+i {
+    color:white;
+    font-size: 2px;
+}
+.ApplicationTable .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ApplicationTable .modal {
+    background: white;
+    border-radius: 5px;
+    width: 40%;
+  }
+  
+  .ApplicationTable .modal-header {
+    /* display: flex; */
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 2px solid #DDDBDA;
+  }
+  .ApplicationTable .modal-body {
+    border-bottom: 2px solid #DDDBDA;
+    position: relative;
+    padding: 0 5%;
+  }
+  h3 {
+    font-weight: 600;
+  }
+ .ApplicationTable .account-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ApplicationTable .custom-select {
+    min-width: 45%;
+    position: relative;
+    padding:10px 5px;
+}
+.ApplicationTable label {
+    font-size: 12px;
+    color: #B3B3B3;
+}
+.plusIcon {
+    background-color: white;
+    color: #2EA7E4;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 1px;
+    margin-right: 5px;
+}

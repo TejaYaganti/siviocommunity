@@ -1,0 +1,105 @@
+.newApp .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .newApp .modal {
+    background: white;
+    border-radius: 5px;
+    width: 50%;
+  }
+  
+  .newApp .modal-header {
+    /* display: flex; */
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 2px solid #DDDBDA;
+  }
+  .newApp .modal-body {
+    border-bottom: 2px solid #DDDBDA;
+    position: relative;
+  }
+  .spinner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+    float: right;
+  }
+  
+  .modal-footer {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .buttonStyle {
+    padding: 8px 18px 8px 18px;
+    color: white;
+    background-color: #2EA7E4;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .newApp .custom-select {
+    min-width: 45%;
+    position: relative;
+    padding:1% 2%;
+  }
+  
+  .newApp select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    font-size: 15px;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  /* .custom-select::before,
+  .custom-select::after {
+    --size: 0.3rem;
+    content: "";
+    position: absolute;
+    right: 2rem;
+    pointer-events: none;
+  }
+  
+  .custom-select::before {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-bottom: var(--size) solid black;
+    top: 60%;
+  }
+  
+  .custom-select::after {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-top: var(--size) solid black;
+    top: 70%;
+  } */
+  .account-details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

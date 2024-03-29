@@ -1,0 +1,64 @@
+.account-details, .personal-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .account-details >div, .personal-details >div >div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    .account-details >div, .personal-details >div, input, label,  select,textarea{
+    width: 48%;
+    justify-content: center;
+    }
+    .vtabcontent {
+        float: left;
+        padding-left:5%;
+        width: 70%;
+        border-left: none;
+        margin-top: 1%;
+      }
+    
+    .required-field::before {
+      content: "*";
+      color: red;
+    }
+    .sectionTitle {
+      background-color: #e0e0e0;
+      padding-left: 15px;
+      font-weight: 500;
+    }
+    .contentdiv {
+      text-align: center;
+    }
+    .buttonStyle {
+      padding: 8px 18px 8px 18px;
+      color: white;
+      background-color: #2EA7E4;
+      border: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+    label 
+   {
+        padding: 5px;
+        margin: 12px;
+      }
+      input 
+      {
+      padding: 5px;
+      margin: 12px;
+      
+      }
+      select 
+      {
+        padding: 5px;
+      
+      }
+      h4 {
+        margin: 12px 0;
+        }
+      

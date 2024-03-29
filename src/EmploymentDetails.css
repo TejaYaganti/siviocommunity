@@ -1,0 +1,82 @@
+.PageTitle {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 0 0;
+}
+.FamilyTable {
+    padding: 16px 0 0;
+}
+.buttonsDiv {
+    padding: 16px 0 0;
+}
+.continueButton {
+    text-align: center;
+    padding: 8px 0 0;
+}
+
+.newFamily .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .newFamily .modal {
+    background: white;
+    border-radius: 5px;
+    width: 40%;
+  }
+  
+  .newFamily .modal-header {
+    /* display: flex; */
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 2px solid #DDDBDA;
+  }
+  .newFamily .modal-body {
+    border-bottom: 2px solid #DDDBDA;
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 20px;
+  }
+  .newFamily .account-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+.newFamily .custom-select {
+    min-width: 45%;
+    position: relative;
+}
+form div {
+    margin-top: 1rem;
+  }
+  
+  /* label,
+  input,
+  textarea
+  button,
+  select{
+    font-size: 1.3rem;
+    line-height: 1.2
+  } */
+  
+  label {
+    display: block;
+  }
+  
+  .newFamily input,
+  textarea {
+    padding: 7px;
+    width: 80%;
+    font-size: 15px;
+  }
+  .newFamily select {
+    padding: 7px;
+    width: 85%;
+    font-size: 15px;
+  }

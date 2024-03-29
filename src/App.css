@@ -1,38 +1,130 @@
-.App {
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width:25%;
+}
+.loginPage 
+input[type="text"],
+input[type="password"] {
+  font-size: 16px;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.signupPage 
+input[type="text"],
+input[type="password"] {
+  font-size: 16px;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.resetPassword
+input[type="text"],
+input[type="password"] {
+  font-size: 16px;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.setPassword
+input[type="text"],
+input[type="password"] {
+  font-size: 16px;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+h3 {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cmpLogo {
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container img{
+  height: 70px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.loginPage .loginbutton {
+  background-color:#2EA7E4;
   color: white;
+  font-size: 18px;
+  padding: 12px 30px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+.forgot-links {
+  margin-top: 10px;
+}
+a {
+  font-size: 16px;
+  color: #2EA7E4;
+  text-decoration: none;
+  cursor: pointer;
+}
+.left-link {
+  float: left;
+  cursor:pointer;
+  border:none;
+  color:#2EA7E4;
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.right-link {
+  float: right;
+  cursor:pointer;
+  border:none;
+  color:#2EA7E4;
+  background-color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signUpDiv {
+  text-align: center;
+  margin-top: 10%;
+}
+.signupbttdiv {
+  text-align: center;
+}
+.signUpButton {
+  background-color:#2EA7E4;
+  color: white;
+  font-size: 18px;
+  padding: 10px 25px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.required-field::before {
+  content: "*";
+  color: red;
+}
+.invalidError {
+  color: red;
+  font: 12px;
+  text-align: center;
+}
+.successMsg {
+  color: green;
+  font: 12px;
+  text-align: center;
 }

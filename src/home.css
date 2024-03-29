@@ -1,0 +1,43 @@
+.PageHeader .HeaderMain{
+    padding: 2% 45%;
+    /* width: 100%; */
+    font-size: large;
+    background-color: rgb(197, 202, 202);
+}
+.GlobalNavigation .tab {
+    padding: 0 25% 0 25%;
+    overflow: hidden;
+    background-color: #11B0E6;
+}
+.GlobalNavigation .tab button {
+    display: block;
+    background-color: #11B0E6;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 9px 12px;
+    font-size: 14px;
+    color: #45464B;
+}
+.GlobalNavigation .tab button.active {
+    background-color: #53525233;
+}
+.GlobalNavigation .tab button:hover {
+    background-color: #81b7f5;
+}
+.PageBody {
+    margin:1%;
+  }
+.PageBody .grid-container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+  }
+.PageBody .grid-container .grid-item2{
+    text-align: center;
+}
+.tabContent {
+    display: none;
+} 
+.tabContent.active {
+    display: block;
+}
